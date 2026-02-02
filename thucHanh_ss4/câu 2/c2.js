@@ -3,7 +3,7 @@ let sumFizz = 0;
 if (n <= 0) {
   console.log("Giá trị n không hợp lệ");
 } else {
-  for (let i = 1; i <= n; i++) {
+  for (let i = 1; i <= 50; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
       console.log("FizzBuzz");
     } else if (i % 3 === 0) {
@@ -17,3 +17,4 @@ if (n <= 0) {
   }
   console.log("Tổng các số in ra 'Fizz' là: " + sumFizz);
 }
+
